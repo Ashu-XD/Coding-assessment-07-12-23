@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int n = 10899,rev,rem;    //declaring value of n
+    while(n!=0)
+    {
+        rem = n%10;           //These are the steps to find out the reverse of a number.
+        rev = rev*10 + rem;
+        n = n/10;
+    }
+    printf("Reverse of 10899 is %d",rev);
+    return 0;
+}
