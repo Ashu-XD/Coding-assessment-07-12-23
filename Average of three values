@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    float a, b, c, avg;   // declaring variables
+    printf("Enter the value of a :");
+    scanf("%f",&a);       // taking input for variable a
+    printf("\nEnter the value of b :");
+    scanf("%f",&b);       // taking input for variable a
+    printf("\nEnter the value of c :");
+    scanf("%f",&c);       //taking input for variable a
+    avg  = (a+b+c)/3;     //Expression for finding average of three values
+    printf("\nAverage of a, b, c is %f",avg);
+    return 0;
+}
