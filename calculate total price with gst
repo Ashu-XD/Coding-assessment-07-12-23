@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    float a, b, c, sum, total;
+    printf("Enter the price of pen  : ");    
+    scanf("%f",&a); //Taking input for price of pen
+    printf("Enter the price of pencil  : ");
+    scanf("%f",&b); //Taking input for price of pencil
+    printf("Enter the price of eraser  : ");
+    scanf("%f",&c); //Taking input for price of eraser
+    sum = a+b+c;
+    total = sum + (sum/100)*18; //Expression for finding bill money along with 18% gst
+    printf("Bill is of %f rupees",total);
+    return 0;
+}
