@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+int main()
+{
+    int i, n, sum1=0, sum=0, sum2=0, num;
+    printf("How many numbers you want to input?  : ");
+    scanf("%d",&n);
+    printf("\nNow enter the numbers  : ");
+    for(i=1;i<=5;i++)
+    {
+        scanf("%d",&num);
+        if(num%2==0)
+        {
+            sum1 = sum1 + num;
+        }
+        sum = sum + num;
+        sum2 = sum - sum1;
+        
+    }
+    printf("\nSum of even numbers is %d",sum1);
+    printf("\nSum of odd numbers is %d",sum2);
+
+    return 0;
+}
